@@ -1,0 +1,135 @@
+/* Diseño adaptable */
+
+@media (max-width: 900px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #temas,
+    #grados {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #temas .tema-card:last-child {
+        grid-column: 1 / -1;
+    }
+
+    #recursos ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #grados article:last-child {
+        grid-column: 1 / -1;
+        max-width: 50%;
+        justify-self: center;
+    }
+
+    #inicio {
+        padding: 80px 6%;
+    }
+
+    #inicio h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #inicio {
+        min-height: 500px;
+        padding: 60px 20px;
+        background-position: center;
+    }
+
+    .inicio-contenido {
+        max-width: 100%;
+    }
+
+    .inicio-contenido h2,
+    #inicio h2 {
+        font-size: 32px;
+    }
+
+    .inicio-descripcion {
+        font-size: 15px;
+    }
+
+    .inicio-etiqueta {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    section,
+    #plataforma,
+    #grados,
+    #recursos,
+    #sesiones,
+    #proyectos,
+    #contacto {
+        padding: 45px 20px;
+    }
+
+    #temas,
+    #grados {
+        grid-template-columns: 1fr;
+    }
+
+    #temas .tema-card:last-child,
+    #grados article:last-child {
+        grid-column: auto;
+        max-width: none;
+        justify-self: auto;
+    }
+
+    #recursos ul,
+    #sesiones ul,
+    #proyectos ul {
+        grid-template-columns: 1fr;
+    }
+
+    #plataforma h2,
+    #grados h2,
+    #recursos h2,
+    #sesiones h2,
+    #proyectos h2,
+    #contacto h2 {
+        font-size: 28px;
+    }
+
+    #plataforma p,
+    #recursos p,
+    #sesiones p,
+    #proyectos p,
+    #contacto p {
+        font-size: 15px;
+    }
+
+    .tema-card {
+        padding: 20px;
+    }
+
+    .tema-card a {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    footer {
+        padding: 25px 20px;
+    }
+}
