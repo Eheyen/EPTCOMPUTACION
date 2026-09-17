@@ -100,7 +100,7 @@ nav a:hover {
     align-items: center;
     padding: 115px 8%;
     box-sizing: border-box;
-    background-image: url("../inicio/fondo-inicio.svg");
+    background-image: url("inicio/fondo-inicio.svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
