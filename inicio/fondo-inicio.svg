@@ -129,7 +129,11 @@
             <text x="1080" y="270" fill="#0078D4">&lt;html&gt;</text>
 
             <text x="1100" y="310" fill="#005A9E">
+<<<<<<< HEAD
                 &lt;h1&gt;EPT
+=======
+                &lt;h1&gt;EPT&lt;/h1&gt;
+>>>>>>> 1afa97d37220862a1af8a69a1709cca6d3031963
             </text>
 
             <text x="1100" y="350" fill="#107C10">
